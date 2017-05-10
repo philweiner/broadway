@@ -20,11 +20,12 @@ p {
   font-size: 14px;
 }
 
-ul li {
+/* Menu Items */
+
+#menu li {
   margin: 0;
   padding: 5px;
   list-style-type: none;
-
 }
 
 li a {
@@ -35,11 +36,23 @@ li a {
 }
 
 
+
+/* Main Section */
+
 .main {
   color: white;
   background-image: url("../images/the-flatiron-building.png");
   background-position: center;
   background-repeat: no-repeat;
+  margin: auto;
+}
+
+/* Footer Sections */
+
+div.footer {
+  align-self: center;
+  margin: auto;
+  max-width: 1830px;
 }
 
 .footer {
@@ -51,5 +64,4 @@ li a {
 
 .footer-links a {
   color: white;
-
 }
